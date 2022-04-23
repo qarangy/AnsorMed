@@ -121,6 +121,55 @@ body {
 }
 
 
+/* SITE_MAIN */
+.hero {
+  background-color: #0EB4C1;
+  color: #fff;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-content {
+  width: 500px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.hero-heading {
+  margin: 0;
+  margin-bottom: 16px;
+  font-size: 36px;
+  line-height: 1.2;
+  font-family: "Barlow Condensed", "Arial", sans-serif;
+}
+
+.hero-text {
+  width: 440px;
+  margin: 0;
+  margin-bottom: 36px;
+  font-size: 18px;
+}
+
+.main-link-solid:hover {
+  color: #fff;
+  background-color: rgba(222, 46, 84, 0.8);
+}
+
+.main-link-solid:active {
+  color: #fff;
+  background-color: rgba(222, 46, 84, 0.6);
+  opacity: 1;
+}
+
+.hero-img {
+  align-self: flex-end;
+}
+
+
 /* SITE_FOOTER */
 .site-footer {
   padding-top: 24px;
