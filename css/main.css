@@ -13,6 +13,10 @@ body {
   background-color: #fff;
 }
 
+*:focus {
+  outline: 2px #DE2E54 dashed;
+  outline-offset: 2px;
+}
 
 /* CONTAINER */
 .container {
@@ -22,4 +26,101 @@ body {
   padding-right: 30px;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+/* SITE_HEADER */
+.site-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.site-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+/* SITE_LOGO */
+.site-logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #222;
+  text-decoration: none;
+}
+
+.logo-text:hover {
+  color: #DE2E54;
+}
+
+.site-logo:active {
+  opacity: 0.6;
+}
+
+.site-logo-img {
+  margin-right: 16px;
+}
+
+
+/* SITE_NAV */
+.site-nav {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.site-nav-list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.nav-link-item:not(:last-child) {
+  margin-right: 32px;
+}
+
+.nav-link {
+  display: block;
+  text-decoration: none;
+  color: #222;
+}
+
+.nav-link:hover {
+  color: #DE2E54;
+}
+
+.nav-link:active {
+  opacity: 0.6;
+}
+
+.main-link {
+  display: inline-block;
+  font-family: "Barlow Condensed", "Arial", sans-serif;
+  font-size: 15px;
+  padding: 10px 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #fff;
+  background-color: #DE2E54;
+  border: 2px solid #DE2E54;
+  border-radius: 8px;
+}
+
+.main-link:hover {
+  background-color: #fff;
+  color: #DE2E54;
+}
+
+.main-link:active {
+  background-color: #DE2E54;
+  color: #fff;
+  opacity: 0.6;
 }
